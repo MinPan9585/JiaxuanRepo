@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
             currentScore += Time.deltaTime;
         }
 
+        Time.timeScale = currentScore / 40 + 1;
+
         //if (Input.GetKeyDown("k"))
         //{
         //    isPlaying = true;
