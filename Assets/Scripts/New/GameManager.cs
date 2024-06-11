@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     #endregion
     public GameObject mainCanvas;
     public GameObject endCanvas;
+    public int lives = 2;
 
     public float currentScore = 0f;
 
